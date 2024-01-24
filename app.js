@@ -175,11 +175,14 @@ colorNumber.push(e.target.className);
       
           if(count === COLORS.length)
           {
-             //START PAGE
-             startPage();
-
+            
              alert('GAME OVER');
+
+              //START PAGE
+              startPage();
+
              resetGame();
+             //shuffle(COLORS);
           }
 
           selected.push(colorNumber[0])
