@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center; 
+    background-color: #b1d3c6;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1d3c6;
+    margin-top: 100px;
+  }
+  
+  div#game div{
+    border: 1px solid black;
+    width: 17%;
+    height: 200px;
+    margin: 5px  2px;
+    display: inline-block;
+  }
+  
+  div#game{
+    display:inline-block; 
+    width: 50%; 
+    height: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+  }
+  
+  button{
+    background-color: #1f8b64; /* Green */
+      position: relative;
+      border-radius: 6%;
+      border: none;
+      color: white;
+      padding: 15px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 30px;
+      margin: 8px 0;
+  }
+  label{
+    font-size: 200px;
+    color: #d86c24;
+  }
